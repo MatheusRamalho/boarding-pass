@@ -4,7 +4,7 @@ import { Ticket } from "./components/Ticket";
 
 export const App = () => {
 	return (
-		<main className="flex items-center justify-center">
+		<main className="w-full h-screen flex items-center justify-center">
 			<Ticket.Root>
 				<Ticket.Title
 					title="Cartão de embarque"
@@ -24,10 +24,14 @@ export const App = () => {
 						landingTime="04:48"
 					/>
 
+					<Ticket.Divider />
+
 					<Ticket.PassengerInfo
 						passenger="Matheus Ramalho"
 						seat="28A"
 					/>
+
+					<Ticket.Divider />
 
 					<Ticket.BoardingInfo
 						boardingTime="16:15"
