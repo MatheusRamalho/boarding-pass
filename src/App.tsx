@@ -1,50 +1,49 @@
-import './styles/global.css';
-
+import GlobalStyle from './styles/global';
 import { Ticket } from "./components/Ticket";
 
 export const App = () => {
 	return (
-		<main className="w-full h-screen flex items-center justify-center">
-			<Ticket.Root>
-				<Ticket.Title
-					title="Cartão de embarque"
-				/>
+		<>
+			<GlobalStyle />
 
-				<Ticket.Content>
-					<Ticket.FlightInfo
-						flight="RS995"
-						flightDate="23/05/2023"
+			<div className="content">
+				<main>
+					<h3 className="title"> Cartão de embarque </h3>
 
-						boardingCity="São Paulo, Brasil"
-						boardingAcronym="GRU"
-						boardingTime="17:00"
+					<Ticket.Root>
+						<Ticket.FlightInfo
+							flight="RS995"
+							flightDate="23/05/2023"
 
-						landingCity="São Francisco, EUA"
-						landingAcronym="SFO"
-						landingTime="04:48"
-					/>
+							boardingCity="São Paulo, Brasil"
+							boardingAcronym="GRU"
+							boardingTime="17:00"
 
-					<Ticket.Divider />
+							landingCity="São Francisco, EUA"
+							landingAcronym="SFO"
+							landingTime="04:48"
+						/>
 
-					<Ticket.PassengerInfo
-						passenger="Matheus Ramalho"
-						seat="28A"
-					/>
+						<Ticket.Divider />
 
-					<Ticket.Divider />
+						<Ticket.PassengerInfo
+							passenger="Matheus Ramalho"
+							seat="28A"
+						/>
 
-					<Ticket.BoardingInfo
-						boardingTime="16:15"
-						terminal={2}
-						gate={15}
-						boardingGroup={3}
-					/>
-				</Ticket.Content>
+						<Ticket.Divider />
 
-				<Ticket.Text
-					text="Qualquer problema procure o balcão de atendimento da sua companhia aérea"
-				/>
-			</Ticket.Root>
-		</main>
+						<Ticket.BoardingInfo
+							boardingTime="16:15"
+							terminal={2}
+							gate={15}
+							boardingGroup={3}
+						/>
+					</Ticket.Root>
+
+					<p className="text"> Qualquer problema procure o balcão de atendimento da sua companhia aérea </p>
+				</main>
+			</div>
+		</>
 	)
 }

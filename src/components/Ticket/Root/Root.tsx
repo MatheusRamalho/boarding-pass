@@ -1,9 +1,10 @@
+import { TicketRootWrapper } from "./Root.styles";
 import { TicketType } from "./Root.types";
 
 export const TicketRoot = ({ children }: TicketType) => {
     return (
-        <div className="w-80">
+        <TicketRootWrapper>
             {children}
-        </div>
+        </TicketRootWrapper>
     );
 }
