@@ -38,7 +38,7 @@ Landing page de um site para pagar um café para o autor desenvolvedor de softwa
 
 ## 🔖 Layout
 
-Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/file/J1Z33MISC22YZB8wfxiIns/NLW-Copa-Explorer/duplicate). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
+Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/file/fVpDoFq9XLWuJa8csrPpdv/%23boraCodar---Desafio-6-(Community)?node-id=1%3A878&t=CHfu66LRCBEwUIlb-0). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
 
 ## :memo: Licença
 
@@ -48,5 +48,3 @@ Esse projeto está sob a licença MIT.
 
 Projeto proposto pela Rocketseat como desafio na plataforma <br/>
 Feito com ♥ by Matheus Ramalho :wave: [matheusramalho.dev](matheusramalho.dev)
-
-https://www.figma.com/file/fVpDoFq9XLWuJa8csrPpdv/%23boraCodar---Desafio-6-(Community)?node-id=1%3A878&t=CHfu66LRCBEwUIlb-0

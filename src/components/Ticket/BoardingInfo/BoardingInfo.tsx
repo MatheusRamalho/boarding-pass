@@ -8,17 +8,17 @@ export const TicketBoardingInfo = ({ boardingTime, terminal, gate, boardingGroup
         <TicketBoardingInfoWrapper>
             <div className="boarding-info-wrapper">
                 <div className="">
-                    <div className="">
+                    <div className="boarding-info-item">
                         <span> Embarque </span>
                         <p> {boardingTime} </p>
                     </div>
 
-                    <div className="">
+                    <div className="boarding-info-item">
                         <span> Terminal </span>
                         <p> {terminal} </p>
                     </div>
 
-                    <div className="">
+                    <div className="boarding-info-item">
                         <span> Portão </span>
                         <p> {gate} </p>
                     </div>

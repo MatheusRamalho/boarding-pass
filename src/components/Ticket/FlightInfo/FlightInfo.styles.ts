@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const TicketFlightInfotWrapper = styled.div`
-    padding: 1.5rem 2rem;
+    padding: 2.5rem 2rem 1.5rem 2rem;
     background-color: #FFFFFF;
     border-top-left-radius: 1.5rem;
     border-top-right-radius: 1.5rem;
@@ -14,7 +14,7 @@ export const TicketFlightInfotWrapper = styled.div`
 
     .flight-info-right {
         display: flex;
-        align-items: flex-end;
+        align-items: center;
         justify-content: space-between;
     }
 
@@ -31,6 +31,7 @@ export const TicketFlightInfotWrapper = styled.div`
 
         h1 {
             font-weight: 500;
+            font-size: 2.5rem;
             text-transform: uppercase;
         }
 
