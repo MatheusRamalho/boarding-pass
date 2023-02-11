@@ -25,7 +25,8 @@ export default createGlobalStyle`
     body {
         width: 100%;
         height: 100%;
-        background: linear-gradient(129deg,#1c0c20 45%,#000);
+        /* background: linear-gradient(129deg,#1c0c20 45%,#000); */
+        background: linear-gradient(167.96deg, #8257E5 0%, #271A45 100%);
 
         font-family: 'Rubik', sans-serif;
         font-weight: 400;
@@ -53,17 +54,27 @@ export default createGlobalStyle`
         text-align: center;
 
         .text {
-            padding: 0 5rem;
-            font-size: 0.754rem;
+            padding: 0 2rem;
+            font-size: 1rem;
         }
     }
 
     span {
-        font-size: 0.875rem;
         color: rgba(0, 0, 0, 0.64);
     }
 
     p {
-        line-height: 24px;
+        font-weight: 500;
+        line-height: 30px;
+
+        &.text-pattern {
+            font-weight: 400;
+        }
+    }
+
+    @media (max-width: 500px) {
+        span {
+            font-size: 0.9rem;
+        }
     }
 `;

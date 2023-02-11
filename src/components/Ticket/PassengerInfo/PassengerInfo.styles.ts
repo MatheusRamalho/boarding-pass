@@ -19,7 +19,10 @@ export const TicketPassengerInfoWrapper = styled.div`
     }
 
     p {
-        font-weight: 700;
         color: rgba(0, 0, 0, 0.88);
+    }
+
+    @media (max-width: 500px) {
+        padding: 1.5rem;
     }
 `;

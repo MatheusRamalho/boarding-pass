@@ -11,7 +11,7 @@ export const TicketBoardingInfoWrapper = styled.div`
         align-items: center;
         justify-content: space-between;
 
-        margin-bottom: 1.5rem;
+        margin-bottom: 2rem;
     }
 
     .boarding-info-item {
@@ -28,7 +28,20 @@ export const TicketBoardingInfoWrapper = styled.div`
     }
 
     p {
-        font-weight: 500;
         color: rgba(0, 0, 0, 0.88);
+
+        &.boarding-info-variant {
+            width: fit-content;
+            padding: 0.2rem 0.7rem;
+            border-radius: 0.5rem;
+            background-color: #8257E5;
+
+            font-weight: 700;
+            color: #FFFFFF;
+        }
+    }
+
+    @media (max-width: 500px) {
+        padding: 2rem 1rem;
     }
 `;

@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const TicketFlightInfotWrapper = styled.div`
-    padding: 2.5rem 2rem 1.5rem 2rem;
+    padding: 2.5rem 2rem 0.5rem 2rem;
     background-color: #FFFFFF;
     border-top-left-radius: 1.5rem;
     border-top-right-radius: 1.5rem;
@@ -24,20 +24,39 @@ export const TicketFlightInfotWrapper = styled.div`
         align-items: flex-start;
 
         padding-bottom: 1.5rem;
+        text-align: left;
 
         &--end {
             align-items: flex-end;
-        }
-
-        h1 {
-            font-weight: 500;
-            font-size: 2.5rem;
-            text-transform: uppercase;
+            text-align: right;
         }
 
         h1, p {
-            font-weight: 500;
             color: rgba(0, 0, 0, 0.88);
+        }
+
+        h1 {
+            font-weight: 700;
+            font-size: 2.5rem;
+            text-transform: uppercase;
+        }
+    }
+
+    img {
+        width: 2rem;
+        margin-top: -1.6rem;
+        margin-left: 2rem;
+    }
+
+    @media (max-width: 500px) {
+        padding: 2rem 1rem;
+
+        .flight-info-item {
+            padding-bottom: 1rem;
+        }
+
+        h1 {
+            font-size: 2rem;
         }
     }
 `;

@@ -8,7 +8,7 @@ export const App = () => {
 
 			<div className="content">
 				<main>
-					<h3 className="title"> Cartão de embarque </h3>
+					<h2 className="title"> Cartão de embarque </h2>
 
 					<Ticket.Root>
 						<Ticket.FlightInfo

@@ -22,7 +22,7 @@ export const TicketFlightInfo = ({ flight, flightDate, boardingCity, boardingAcr
                 <div className="flight-info-item">
                     <span> {boardingCity} </span>
                     <h1> {boardingAcronym} </h1>
-                    <p className="uppercase"> {boardingTime} </p>
+                    <p className="text-pattern"> {boardingTime} </p>
                 </div>
 
                 <img
@@ -33,7 +33,7 @@ export const TicketFlightInfo = ({ flight, flightDate, boardingCity, boardingAcr
                 <div className="flight-info-item flight-info-item--end">
                     <span> {landingCity} </span>
                     <h1> {landingAcronym} </h1>
-                    <p> {landingTime} </p>
+                    <p className="text-pattern"> {landingTime} </p>
                 </div>
             </div>
         </TicketFlightInfotWrapper>

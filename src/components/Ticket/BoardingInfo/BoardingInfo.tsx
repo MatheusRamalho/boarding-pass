@@ -10,7 +10,7 @@ export const TicketBoardingInfo = ({ boardingTime, terminal, gate, boardingGroup
                 <div className="">
                     <div className="boarding-info-item">
                         <span> Embarque </span>
-                        <p> {boardingTime} </p>
+                        <p className="boarding-info-variant"> {boardingTime} </p>
                     </div>
 
                     <div className="boarding-info-item">
@@ -34,7 +34,7 @@ export const TicketBoardingInfo = ({ boardingTime, terminal, gate, boardingGroup
             </div>
 
             <div className="boarding-info-notice flex items-center justify-center">
-                <p>
+                <p className="text-pattern">
                     <strong> Atenção: </strong>
                     o portão fecha {boardingTime}
                 </p>
