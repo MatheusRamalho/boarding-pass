@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const TicketFlightInfotWrapper = styled.div`
     padding: 2.5rem 2rem 0.5rem 2rem;
-    background-color: #FFFFFF;
+    background-color: var(--white);
     border-top-left-radius: 1.5rem;
     border-top-right-radius: 1.5rem;
 

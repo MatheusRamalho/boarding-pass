@@ -5,7 +5,7 @@ export const TicketDividerWrapper = styled.div`
 
     border: 0.063rem dashed rgba(0, 0, 0, 0.32);
     border-spacing: 15px 10px;
-    background-color: #FFFFFF;
+    background-color: var(--white);
 
     &::before, &::after {
         content: '';
@@ -18,9 +18,7 @@ export const TicketDividerWrapper = styled.div`
         width: 2rem;
         height: 2rem;
         border-radius: 50%;
-        /* background: linear-gradient(129deg,#1c0c20 45%,#000); */
         background-color: #583a9d;
-        /* background: linear-gradient(167.96deg, #8257E5 0%, #271A45 100%); */
     }
 
     &::after {

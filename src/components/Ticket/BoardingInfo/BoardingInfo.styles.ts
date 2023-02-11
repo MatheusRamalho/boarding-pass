@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const TicketBoardingInfoWrapper = styled.div`
     padding: 2rem 2rem 2.5rem 2rem;
-    background-color: #FFFFFF;
+    background-color: var(--white);
     border-bottom-left-radius: 1.5rem;
     border-bottom-right-radius: 1.5rem;
 
@@ -34,10 +34,10 @@ export const TicketBoardingInfoWrapper = styled.div`
             width: fit-content;
             padding: 0.2rem 0.7rem;
             border-radius: 0.5rem;
-            background-color: #8257E5;
+            background-color: var(--primary100);
 
             font-weight: 700;
-            color: #FFFFFF;
+            color: var(--white);
         }
     }
 
