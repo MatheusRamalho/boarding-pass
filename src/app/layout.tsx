@@ -20,8 +20,8 @@ export default function RootLayout({
     return (
         <html lang="en">
             <body className={rubik.className}>
-                <div className="w-full h-screen bg-gray-800 flex items-center justify-center flex-col">
-                    <main className="w-full h-[calc(100vh-4rem)] p-4 flex items-center justify-center flex-col">
+                <div className="w-full min-h-screen bg-gray-800 flex items-center justify-center flex-col">
+                    <main className="w-full min-h-[calc(100vh-4rem)] p-4 flex items-center justify-center flex-col">
                         {children}
                     </main>
 
